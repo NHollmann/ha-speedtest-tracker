@@ -72,7 +72,7 @@
   "selector": {
     "result_timezone_mode": {
       "options": {
-        "utc": "UTC (Speedtest Tracker Standart)",
+        "utc": "UTC (Speedtest Tracker Standard)",
         "local": "Lokal (Zeitzone von Home Assistant)",
         "custom": "Andere Zeitzone…"
       }
