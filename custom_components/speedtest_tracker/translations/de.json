@@ -108,7 +108,7 @@
       "upload_avg": {"name": "Upload Ø"},
       "upload_min": {"name": "Upload Min"},
       "upload_max": {"name": "Upload Max"},
-      "total_results": {"name": "Gesamtergebnis"}
+      "total_results": {"name": "Anzahl Ergebnisse"}
     },
     "binary_sensor": {
       "healthy": {"name": "Gesund"},
