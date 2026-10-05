@@ -31,14 +31,12 @@ class SpeedtestTrackerBinarySensorDescription(BinarySensorEntityDescription):
 DESCRIPTIONS = (
     SpeedtestTrackerBinarySensorDescription(
         key="healthy",
-        name="Healthy",
         object_id="speedtest_tracker_healthy",
         icon="mdi:heart-pulse",
         value_fn=lambda data: _dig(data, "latest", "healthy"),
     ),
     SpeedtestTrackerBinarySensorDescription(
         key="scheduled",
-        name="Scheduled",
         object_id="speedtest_tracker_scheduled",
         icon="mdi:calendar-clock",
         value_fn=lambda data: _dig(data, "latest", "scheduled"),
