@@ -342,7 +342,7 @@ class SpeedtestTrackerSensor(SpeedtestTrackerCoordinatorEntity, SensorEntity):
         self.entity_description = description
         self._attr_unique_id = f"{entry.entry_id}_{description.key}"
         self._attr_has_entity_name = True
-        self._attr_name = description.name
+        self._attr_translation_key = description.key
         self._attr_suggested_object_id = description.object_id
 
     @property
